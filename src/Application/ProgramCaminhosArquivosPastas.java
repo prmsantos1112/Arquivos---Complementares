@@ -14,6 +14,7 @@ public class ProgramCaminhosArquivosPastas {
 		String strPath = sc.nextLine();
 
 		File path = new File(strPath);
+		System.out.println();
 		System.out.println("Enter a Folder getPath: " + path.getPath());
 		System.out.println("Enter a Folder getParent: " + path.getParent());
 		System.out.println("Enter a Folder getName: " + path.getName());
